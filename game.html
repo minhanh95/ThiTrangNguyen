@@ -27,11 +27,18 @@
 		position:relative;
 		top:1px;
 	}
+	.centered {
+		  position: fixed;
+		  top: 50%;
+		  left: 50%;
+		  margin-top: -50px;
+		  margin-left: -100px;
+	}
 	</style>
 </head>
 <body>
   <button class = "myButton" onClick="window.location.reload();">Làm lại bài</button> <p> Tải game có thể mất từ 15-20s giây </p>
   </br>
-  <iframe src="https://i.simmer.io/@minhanh95/haitiso" style="width:960px;height:600px"></iframe>
+  <p class="centered"><iframe src="https://i.simmer.io/@minhanh95/haitiso" style="width:960px;height:600px"></iframe> </p>
 </body>
 </html>
