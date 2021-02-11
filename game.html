@@ -29,24 +29,50 @@
 	}
 	.centered {
 		  position: fixed;
-		  top: 10%;
-		  left: 10%;
+			left: 20%;
 
 	}
 
-	.inlineblock { 
-   		 display: inline-block;
-   		 width: 50%;
+	
 	}
-	</style>
+	.box {
+            width: 1080px;
+			height: 720px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+     }
+	body{
+		background: url("./img/backgound.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+	.text{
+		color: white;
+		font-size: 20px;
+		padding: 10px;
+	}
+    iframe {
+            width: 100%;
+            border: 5px solid #ccc;
+    }
+    </style>
 </head>
 <body>
-  <button class = "myButton" onClick="window.location.reload();">Làm lại bài</button> <p> Tải game có thể mất từ 15-20s giây </p>
-  </br>
-  <div class="centered">
-	  <div class="inlineblock">
-		  <iframe src="https://i.simmer.io/@minhanh95/haitiso" style="width:960px;height:600px"></iframe> 
-	  </div>
-</div>
+	<div>
+		<button class="myButton" onClick="window.location.reload();">Làm lại bài</button>
+		<div class="text"> Tải game có thể mất từ 15-20s giây </div>
+		</br>
+		<div class="centered">
+
+			<iframe src="https://i.simmer.io/@minhanh95/haitiso" style="width:960px;height:600px"></iframe>
+
+		</div>
+	</div>
+	
+
+
+
 </body>
 </html>
