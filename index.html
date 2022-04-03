@@ -27,11 +27,42 @@
 		position:relative;
 		top:1px;
 	}
-	</style>
+	.centered {
+			position:absolute;
+			left: 20%;
+			padding: 15px;
+			
+	}
+
+	
+
+	body{
+		background: url("./img/backgound.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+	.text{
+		color: white;
+		font-size: 20px;
+		padding: 5px;
+	}
+    iframe {
+            width: 100%;
+            border: 5px solid #ccc;
+    }
+
+    </style>
 </head>
 <body>
-<button class = "myButton" onClick="window.location.reload();">Reload App</button>
-</br>
-<iframe src="https://i.simmer.io/@minhanh95/thidvav2" style="width:960px;height:600px"></iframe>
+	<div class="centered">
+		<button class="myButton" onClick="window.location.reload();">Làm lại bài</button>
+		<div class="text"> Tải game có thể mất từ 15-20s giây </div>
+		</br>
+		<div class="centered">
+			<iframe src="https://i.simmer.io/@minhanh95/khoi5dva" style="width:960px;height:600px"></iframe>
+		</div>
+	</div>
+	</br>
 </body>
 </html>
